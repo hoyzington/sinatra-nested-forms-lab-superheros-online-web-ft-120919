@@ -8,16 +8,8 @@ class App < Sinatra::Base
     erb :"/app/views/new"
   end
   
-  get "/" do
-    
+  post "/teams" do
+    erb :"/app/views/teams"
   end
   
-  get "/" do
-    
-  end
-  
-  get "/" do
-    
-  end
-
 end
