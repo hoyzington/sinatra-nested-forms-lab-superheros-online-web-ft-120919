@@ -1,5 +1,5 @@
 require 'sinatra/base'
-require './environment'
+#require './environment'
 
 class App < Sinatra::Base
 
